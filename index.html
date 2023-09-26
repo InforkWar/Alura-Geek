@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura-Geek</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="header-fix">
+    <div class="contenedor-header">
+        <div class="contenedor1">
+            <div class="contenedor-logo">
+                <img src="./imagenes/sports_esports_black_24dp 1.png" alt="">
+                <img class="logo-texto" src="./imagenes/Texto.png" alt="">
+            </div>
+            
+            <input class="buscador" placeholder="¿Que deseas Buscar?">
+                
+        </div>
+        <button class="boton-header">Login</button>
+    </div>
+</div>
+
+<div data-banner>
+    <!-- <section class="banner">
+        <div class="banner2">
+        <h1 class="tituloBanner">Febrero Promocional</h1>
+        <h3 class="descripcion">Productos seleccionados con 33% de descuento</h3>
+        <button class="botonBanner">Ver Consolas</button>
+        </div>
+    </section> -->
+</div>
+
+    
+    <section class="seccion-productos" >
+        
+        <div class="contenedor-productos">
+            <div class="seccion-productos-encabezado" >
+                <h2>StarWars</h2>
+                <a href="#">Ver todo &#129154;</a>
+            </div>
+            <div class="lista-productos" data-starwars></div>
+        </div>
+
+
+        <div class="contenedor-productos">
+            <div class="seccion-productos-encabezado" >
+                <h2>Consolas</h2>
+                <a href="#">Ver todo &#129154;</a>
+            </div>
+            <div class="lista-productos" data-consolas></div>
+        </div>
+
+
+        <div class="contenedor-productos">
+            <div class="seccion-productos-encabezado" >
+                <h2>Diversos</h2>
+                <a href="#">Ver todo &#129154;</a>
+            </div>
+            <div class="lista-productos" data-diversos></div>
+        </div>
+    </section>
+
+
+
+    <section class="seccion-contacto">
+        <div class="contenedor-contacto">
+            <div class="contenedor-logo">
+                <img class="logo-img" src="./imagenes/sports_esports_black_24dp 1.png" alt="">
+                <img class="logo-texto" src="./imagenes/Texto.png" alt="">
+            </div>
+            <div class="contenedor-links">
+                <a href="#">Quiénes Somos</a>
+                <a href="#">Política de Privacidad</a>
+                <a href="#">Programa de fidelidad</a>
+                <a href="#">Nuestras Tiendas</a>
+                <a href="#">Quiero ser franquiciado</a>
+                <a href="#">Anuncie aquí</a>
+            </div>
+            <div class="contenedor-formulario">
+                <h3>Hable con nosotros</h3>
+                <input type="text" placeholder="Nombre">
+                <textarea placeholder="Escribe tu mensaje aquí"></textarea>
+                <button class="botonBanner">Enviar Mensaje</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Desarrollado por Marcelo Baltanás</p>
+        <p>2023</p>
+    </footer>
+
+    <script src="./banner.js"></script>
+    <script src="./service/client-service.js"></script>
+</body>
+</html>
