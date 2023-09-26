@@ -23,7 +23,7 @@ const diversos = document.querySelector("[data-diversos]");
 
 const http = new XMLHttpRequest();
 
-http.open("GET","./Alura-Geek/db.json");
+http.open("GET","./Alura-Geek/blob/main/db.json");
 
 http.send();
 
