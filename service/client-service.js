@@ -23,7 +23,7 @@ const diversos = document.querySelector("[data-diversos]");
 
 const http = new XMLHttpRequest();
 
-http.open("GET","https://raw.githubusercontent.com/InforkWar/Fake-api/sofidev/db.json");
+http.open("GET","https://fake-api-tau-green.vercel.app/product");
 
 http.send();
 
