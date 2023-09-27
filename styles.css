@@ -260,6 +260,11 @@ body{
     justify-content: space-between;
 }
 
+.producto img{
+    height: 200px;
+    max-width: 180px;
+}
+
 .producto img, .producto h3{
     margin: 8px 0;
     font-family: 'Raleway', sans-serif;
